@@ -1,0 +1,30 @@
+{
+  "name": "mong-crud-app-with-express---node",
+  "version": "1.0.0",
+  "description": "mongoose CRUD Application with express js - Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkersh/Nodejs-with-MongoDB.git"
+  },
+  "keywords": [
+    "CRUD",
+    "mongoose",
+    "express"
+  ],
+  "author": "Mohammad Sarker 1sarkm21@solent.ac.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarkersh/Nodejs-with-MongoDB/issues"
+  },
+  "homepage": "https://github.com/sarkersh/Nodejs-with-MongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19"
+  }
+}
