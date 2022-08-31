@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // database connection with mongoose
-mongoose.connect('mongodb+srv://sarkersh:Shakil2023@cluster0.fsnhzuj.mongodb.net/?retryWrites=true&w=majority/todos')
+mongoose.connect('mongodb+srv://sarkersh:Shakil2023@cluster0.fsnhzuj.mongodb.net/todos')
 .then(() => console.log("connection successful"))
 .catch((err) => console.log(err));
 
